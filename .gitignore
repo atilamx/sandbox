@@ -156,9 +156,3 @@ x509.genkey
 # Documentation toolchain
 sphinx_*/
 
-#For some reason it is patching the followinf files when I clone the repo
-include/uapi/linux/netfilter/*
-include/uapi/linux/netfilter_ipv4/*
-include/uapi/linux/netfilter_ipv6/*
-net/netfilter/*
-tools/memory-model/litmus-tests/*
